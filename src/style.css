@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.wrapper{
+    width: 900px;
+    height: 500px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-flow: column;
+    filter: drop-shadow(0px 30px 25px #9fa0a1);
+}
+.div1{
+    border-radius: 15px 0 0 15px;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    background-color: #e38826;
+    justify-content: center;
+    align-items: center;
+
+
+}
+div>img{
+    transition: 0.5s ease-in-out;
+    transform: translate(0%, 0%);
+}
+
+div>img:hover{
+    transform: translate(90%, 0%);
+}
+
+.div2{
+    background-color: #006970;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-auto-flow: row;
+    justify-content:center;
+    align-items:center;
+}
+
+.div3{
+    background-color: #004241;
+    border-radius: 0px 15px 15px 0px;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.para1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.para2{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 70px;
+    border: 0px solid transparent;
+    background-color: #f2f2f2;
+    color: #e38826;
+    font-family: 'Lexend Deca' ;
+    font-weight: 400;
+    font-size: 17px;
+    width: 180px;
+    height: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #e38826;
+    color: #f2f2f2;
+    border: 3px solid #f2f2f2;
+}
+
+.btn1{
+    cursor: pointer;
+    border-radius: 70px;
+    border: 0px solid transparent;
+    background-color: #f2f2f2;
+    color: #006970;
+    font-family: 'Lexend Deca' ;
+    font-weight: 400;
+    font-size: 17px;
+    width: 180px;
+    height: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn1:hover{
+    background-color: #006970;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+}
+.btn2{
+    cursor: pointer;
+    border-radius: 70px;
+    border: 0px solid transparent;
+    background-color: #f2f2f2;
+    color: #004241;
+    font-family: 'Lexend Deca' ;
+    font-weight: 400;
+    font-size: 17px;
+    width: 180px;
+    height: 60px;
+    float: left;
+    transition: 0.3s ease-in-out;
+}
+
+.btn2:hover{
+    background-color: #004241;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+}
